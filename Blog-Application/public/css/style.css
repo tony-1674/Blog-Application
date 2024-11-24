@@ -1,0 +1,30 @@
+.comment-line {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.comment-line img {
+    flex-shrink: 0; /* Prevents the image from resizing */
+    width: 32px;
+    height: 32px;
+}
+
+.comment-line div {
+    display: flex;
+    flex-wrap: nowrap; /* Ensures the text stays on one line */
+    align-items: center;
+    gap: 5px;
+}
+
+.comment-line h6,
+.comment-line p,
+.comment-line small {
+    margin: 0;
+    display: inline; /* Keeps all elements inline */
+    white-space: nowrap; /* Prevents wrapping to a new line */
+}
+
+.comment-line p {
+    margin-left: 5px;
+}
